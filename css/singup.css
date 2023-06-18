@@ -26,13 +26,18 @@ ul li a{
     height: 56px;
     position: relative;
 }
+.active{
+    color: maroon;
+    font-weight: bold;
+}
 #form{
     width: 400px;
-    height: 400px;
+    height: auto;
     border:2px solid green;
     margin-top: 100px;
     margin-left:auto;
     margin-right: auto;
+    border-radius: 15px;
 
 }
 label{
@@ -43,7 +48,7 @@ form{
     padding-top: 30px;
     padding-left: 10px;
 }
-input[type="text"]{
+input[type="text"],input[type="password"]{
     width: 95%;
     margin-top: 5px;
     height: 60px;
@@ -68,11 +73,10 @@ input[type="submit"]:hover{
     transition: all 0.2s ease-in-out;
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
-.active{
-    color: maroon;
-    font-weight: bold;
-}
-#footer{
-    text-align: center;
-    margin-top: 100%;
+input[type="date"]{
+    width: 98%;
+    height: 56px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
