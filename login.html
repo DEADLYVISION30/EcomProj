@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
     <div id="nav-bar">
@@ -19,12 +19,12 @@
       </header>
     </div>
     <div id="form">
-      <form>
+      <form method="post" action="./php/login.php">
         <label>Username:</label><br />
-        <input type="text" name="Username" placeholder="Username" />
+        <input type="email" name="email" placeholder="Email" />
         <br /><br />
         <label style="margin-top: 20px">Password:</label><br />
-        <input type="text" name="Username" placeholder="Password" />
+        <input type="password" name="Pass" placeholder="Password" />
         <div id="submit">
           <input type="submit" />
         </div>

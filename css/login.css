@@ -43,7 +43,7 @@ form{
     padding-top: 30px;
     padding-left: 10px;
 }
-input[type="text"]{
+input[type="Email"],input[type="password"]{
     width: 95%;
     margin-top: 5px;
     height: 60px;
