@@ -6,7 +6,7 @@ $link = mysqli_connect("localhost", "root", "", "ecommerce");
 if ($link->connect_error) {
     die("connection failed");
 } else {
-    $query = "Select * from admin where Email='$email' AND Password='$pass'";
+    $query = "Select * from users where Email='$email' AND Password='$pass'";
     $row = ($link->query($query))->fetch_assoc();
     if (is_array($row)) {
         $_SESSION["ID"] = $row["ID"];
