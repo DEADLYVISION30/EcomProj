@@ -44,29 +44,30 @@ ul li a{
     display: block;
 }
 .cats{
+    background-color: lightcoral;
     margin-top:20px ;
     width: 400px;
-    height: 400px;
+    height: 300px;
     border: 2px solid red;
     position: relative;
     text-align: center;
     align-items: center;
     box-shadow: 10px 10px 5px lightblue;
+    color: white;
 }
 .img{
 
-    width: 90%;
+    width: 300px;
     margin: 0 auto;
     margin-top: 10px;
-    height: 200px;
 }
 #categories{
     display: flex;
     gap: 300px;
 }
 .img img{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
     display: block;
     box-shadow: 10px 10px 5px lightblue;
 }
